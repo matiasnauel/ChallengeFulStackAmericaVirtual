@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ClimateExam</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-modif">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 ">
+                  
+                        <img src="/images/AmericaVirtual.png" class="img-responsevi" />
+                    </div>
+                    <div class="col-8 col-sm-6 col-md-6 col-lg-6   d-flex ">
+                        <div class="dropdown ml-auto">
+                          
+                            <button class="btn  btn-modif  " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >INICIAR SESIÓN <ion-icon name="person"></ion-icon> </button>
+                            <div class="dropdown-menu p-3 mt-2 shadow-sm " id="dropdown">
+                                <form class="form-horizontal  p-0" method="post" accept-charset="UTF-8">
+                                    <label class="m-2">Usuario</label>
+                                    <input class="form-control" id="txtUsuario" type="text" name="username2" placeholder="AmericanVirtual@gmail.com">
+                                    <label class="m-2">Contraseña</label>
+                                  
+                                    <input class="form-control mt-2 " type="password" name="password2" placeholder="123432" id="txtClave">
+                                    <input class="btn btn-primary btn-block mt-2 btn-login" type="button" name="submit" id="btnEntrar" value="INICIAR SESIÓN">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="container body-content">
+        @RenderBody()
+     
+      
+    </div>
+    <footer class="footer bg-dark p-3">
+        <div class="container">
+            <div class="row">
+                <div class=" col-7  col-sm-6 col-md-6 col-lg-6">
+                    <span class="text-white op-50">Copyright 2020 All right register | America virtual</span>
+                </div>
+                <div class=" col-5  col-sm-6 col-md-6 col-lg-6 d-flex ">
+                    <span class="text-muted  text-right "> <img class="img-footer" style=" min-width: 10rem; max-width: 30%;" src="/images/AmericaVirtualFooter.png"> </span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

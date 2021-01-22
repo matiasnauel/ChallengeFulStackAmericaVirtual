@@ -1,0 +1,124 @@
+﻿body {
+    background-color: #F2F2F1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-modif {
+    background-color: #FF6859;
+}
+
+.btn-modif {
+    background-color: transparent !important;
+    color: white;
+    border-color: white;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.img-responsevi {
+    min-width: 14rem;
+    max-width: 40%;
+}
+
+.section-title {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+    .section-title h1 {
+        font-size: 30px;
+    }
+
+.line {
+    border-top: 4px solid #FF6859;
+}
+
+.card h3 {
+    color: #5F6C9F;
+}
+
+.line-card {
+    border-top: 2px solid #5F6C9F;
+    margin-top: 3px;
+}
+
+.btn-modif-search {
+    background-color: #FF6859 !important;
+}
+
+.btn-title-search {
+    letter-spacing: 3px;
+    color: white;
+    font-weight: bolder;
+}
+
+.form-control {
+    opacity: 50%;
+    font-size: 13px;
+}
+
+.country {
+    opacity: 50%;
+}
+
+.province {
+    opacity: 50%;
+}
+
+.sun-icons {
+    width: 70%;
+    opacity: 50%;
+    margin-bottom: 2rem;
+}
+
+.feature-title {
+    letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight:bold;
+}
+
+.temperature {
+    font-size: 6rem;
+    position: relative;
+}
+
+.temperature-celsius {
+    position: absolute;
+    font-size: 3rem;
+    top: .5rem;
+}
+
+.card-img-top {
+    opacity: 50%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.img-footer {
+    min-width: 10rem;
+    max-width: 30%;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.op-50 {
+    opacity: 50% !important;
+}
+
+.dropdown-menu {
+    min-width: 20rem;
+    left: -70%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.btn-login {
+    background-color: #FF6859 !important;
+    outline: none;
+    border: none;
+}
